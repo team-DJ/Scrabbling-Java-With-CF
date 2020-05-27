@@ -1,17 +1,25 @@
-# Welcome to 'Scrabbling Java with CC'!
+# Welcome to 'Scrabbling Java with CF'! :smile:
 We welcome you to our project where you can contribute to the project by using Collection Classes and Interfaces of our very favorite computer language **JAVA**. 
 This project is simple and easy so that we can help those who are contributing for the first time. Hence, this project also serves as an experience for *'First Time Contributors'* 
 
 
 
-# The Project 
+# The Project :open_file_folder:
 
 The project is like your very own repository where you can add programs and code related to the different **collection classes** & **collection interfaces** defined in JAVA.  The contributor has to send in code files by applying and using different java collection classes and interfaces methods as per the list mentioned below. 
 
 We will then be reviewing and adding your code files under the respective method headings. 
 
 ## The Collection Interface list:  
-List Interface  
+<details> 
+ <summary> List Interface </summary > 
+ <br> - void add(int index, E element) 
+ <br> - boolean add(E e)
+ <br> - boolean addAll(Collection<? extends E> c)
+ <br> - boolean addAll(int index, Collection<? extends E> c)
+ <br> - void clear()
+ </details>
+ 
 Queue Interface  
 Deque Interface  
 Set Interface  
@@ -31,7 +39,7 @@ HashMap Class
 TreeSet Class  
 
 
-# Contribution best practices
+# Contribution best practices :white_check_mark:
 
 ## For First time Contributors 
 Kindly read the CONTRIBUTE.md file first to know some basic git commands and the proper way to create issue and send pull requests. 
@@ -49,7 +57,7 @@ Please help us follow the best practices to make it easy for the reviewer as wel
 
 
 
-# Join Now
+# Join Now :email:
 
 The best and the only way to join the project is by opening an issue or solving an existing issue by sending a pull request. 
  > If you would like to work on an issue, drop in a comment at the issue. If it is already assigned to someone, but there is no sign of any work being done, please free to drop in a comment so that the issue can be assigned to you if the previous assignee has dropped it entirely.
@@ -60,10 +68,10 @@ The best and the only way to join the project is by opening an issue or solving 
 - **Discord Group-**
 - **Slack Group-**
 
-# Guidelines 
+# Guidelines :point_right:
 - Before you join the development, please run and test the code developed by you on your local machine by keeping in all the checks and compiling it properly.  Check the code completely and then create a pull request.
 
 - We want  that all the coders must follow some decency while working on this project that a proper online code of conduct must be followed. The only restriction we impose is that your action or words must not hurt others. At the end of the day we all are forging ahead to accomplish a unanimous goal that is to help contribute to **open source**. 
 
-# Future 
+# Future :computer:
 In the future we are planning to launch this project by deploying this project into an app and website as well so that it accessible to a major audience. 
