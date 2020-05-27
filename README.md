@@ -9,27 +9,26 @@ This project is simple and easy so that we can help those who are contributing f
 The project is like your very own repository where you can add programs and code related to the different **collection classes** & **collection interfaces** defined in JAVA.  The contributor has to send in code files by applying and using different java collection classes and interfaces methods as per the list mentioned below. 
 
 We will then be reviewing and adding your code files under the respective method headings. 
-## The Collection Class list:
 
-## The Collection Interface list:
-List Interface
-Queue Interface
-Deque Interface
-Set Interface
-Map Interface
-SortedSet Interface
-NavigableSet Interface
+## The Collection Interface list:  
+List Interface  
+Queue Interface  
+Deque Interface  
+Set Interface  
+Map Interface  
+SortedSet Interface  
+NavigableSet Interface  
 
-## The Collection Interface list:
-ArrayList Class
-Vector Class
-Linkedlist Class
-PriorityQueue Class
-ArrayDeque Class
-HashSet Class
-LinkedHashSet Class
-HashMap Class
-TreeSet Class
+## The Collection Class list:  
+ArrayList Class  
+Vector Class  
+Linkedlist Class  
+PriorityQueue Class  
+ArrayDeque Class  
+HashSet Class  
+LinkedHashSet Class  
+HashMap Class  
+TreeSet Class  
 
 
 # Contribution best practices
@@ -57,7 +56,7 @@ The best and the only way to join the project is by opening an issue or solving 
 
 ## Contact Us 
 > If you have any doubts regarding the projects or need help kindly write to us or join on the following links.
-- **Email ID -*vbsquad@gmail.com* 
+- **Email ID -vbsquad@gmail.com**  
 - **Discord Group-**
 - **Slack Group-**
 
