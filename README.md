@@ -12,31 +12,331 @@ We will then be reviewing and adding your code files under the respective method
 
 ## The Collection Interface list:  
 <details> 
- <summary> List Interface </summary > 
- <br> - void add(int index, E element) 
- <br> - boolean add(E e)
- <br> - boolean addAll(Collection<? extends E> c)
- <br> - boolean addAll(int index, Collection<? extends E> c)
- <br> - void clear()
+ <summary> List Interface </summary > <br>
+
+ - [void add(int index, E element)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/2)  
+ - [boolean add(E e)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/3)
+ - [boolean addAll(Collection<? extends E> c)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/4)
+ - [boolean addAll(int index, Collection<? extends E> c)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/5)
+ - [void clear()]
+ - boolean equals(Object o)
+ - int hashcode()
+ - E get(int index)
+ - boolean isEmpty()
+ - int lastIndexOf(Object o)
+ - Object[] toArray()
+ - <T> T[] toArray(T[] a)
+ - boolean contains(Object o)	
+ - boolean containsAll(Collection<?> c)
+ - int indexOf(Object o)
+ - E remove(int index)
+ - boolean remove(Object o)
+ - boolean removeAll(Collection<?> c)
+ - void replaceAll(UnaryOperator<E> operator)
+ - void retainAll(Collection<?> c)
+ - E set(int index, E element)
+ - void sort(Comparator<? super E> c)
+ - Spliterator<E> spliterator()
+ - List<E> subList(int fromIndex, int toIndex)
+ - int size()
+ </details>
+
+<details> 
+ <summary> Queue Interface  </summary > <br>
+
+ - boolean add(object) 
+ - boolean offer(object)
+ - Object remove()
+ - Object poll()
+ - Object element()
+ - Object peek()
+</details>
+ 
+<details>
+ <summary> Deque Interface </summary> <br> 
+ 
+- boolean add(object)
+- boolean offer(object)
+- Object remove()
+- Object poll()
+- Object element()
+- Object peek()
+</details>
+ 
+<details> 
+ <summary> Set Interface </summary> <br> 
+ 
+ - add()
+ - addAll() 
+ - iterator()
+ - remove() 
+ - removeAll() 
+ - retainAll()
+ - clear()
+ - size()
+ - toArray()
+ - contains() 
+ - containsAll()
+ - hashCode()
  </details>
  
-Queue Interface  
-Deque Interface  
-Set Interface  
-Map Interface  
-SortedSet Interface  
-NavigableSet Interface  
+<details> 
+ <summary> Map Interface  </summary> <br> 
+ 
+ - put(K, V)
+ - putAll()
+ - putIfAbsent(K, V) 
+ - get(K)
+ - getOrDefault(K, defaultValue)
+ - containsKey(K)
+ - containsValue(V)
+ - replace(K, V) 
+ - replace(K, oldValue, newValue)
+ - remove(K)
+ - remove(K, V)
+ - keySet()
+ - values()
+ - entrySet() 
+ </details>
+
+<details> 
+ <summary> SortedSet Interface </summary> <br>
+ 
+ - comparator()
+ - first()
+ - last()
+ - headSet(element)
+ - tailSet(element)
+ - subSet(element1, element2)
+ </details> 
+ 
+<details> 
+ <summary> NavigableSet Interface </summary> </br>
+ 
+ - descendingSet()
+ - descendingIterator()
+ - ceiling()
+ - floor()
+ - higher()
+ - lower() 
+ - pollFirst()
+ - pollLast()
+ </details>
 
 ## The Collection Class list:  
-ArrayList Class  
-Vector Class  
-Linkedlist Class  
-PriorityQueue Class  
-ArrayDeque Class  
-HashSet Class  
-LinkedHashSet Class  
-HashMap Class  
-TreeSet Class  
+
+<details>
+ <summary> ArrayList Class </summary> <br> 
+ 
+ - boolean add(E e)
+ - void add(int index, E element)
+ - boolean addAll(Collection<? extends E> c)
+ - boolean addAll(int index, Collection<? extends E> c)
+ - void clear()
+ - Object clone() 
+ - boolean contains(Object o)
+ - void ensureCapacity(int minCapacity)
+ - E get(int index)
+ - int indexOf(Object o)
+ - boolean isEmpty()
+ - int lastIndexOf(Object o)
+ - E remove(int index)
+ - boolean remove(Object o)
+ - protected void removeRange(int fromIndex, int toIndex)
+ - E set(int index, E element)
+ - int size()
+ - Object[] toArray()
+ - <T> T[] toArray(T[] a)
+ - void trimToSize()
+</details> 
+
+<details> 
+ <summary> Vector Class  </summary> <br> 
+ 
+ - void add(int index, Object element)
+ - boolean add(Object o)
+ - boolean addAll(Collection c)
+ - boolean addAll(int index, Collection c)
+ - void addElement(Object obj)
+ - int capacity()
+ - void clear()
+ - Object clone()
+ - boolean contains(Object elem)
+ - boolean containsAll(Collection c)
+ - void copyInto(Object[] anArray)
+ - Object elementAt(int index)
+ - Enumeration elements()
+ - void ensureCapacity(int minCapacity)
+ - boolean equals(Object o)
+ - Object firstElement()
+ - Object get(int index)
+ - int hashCode()
+ - int indexOf(Object elem)
+ - int indexOf(Object elem, int index)
+ - void insertElementAt(Object obj, int index)
+ - boolean isEmpty()
+ - Object lastElement()
+ - int lastIndexOf(Object elem)
+ - int lastIndexOf(Object elem, int index)
+ - Object remove(int index)
+ - boolean remove(Object o)
+ - boolean removeAll(Collection c)
+ - void removeAllElements()
+ - boolean removeElement(Object obj)
+ - void removeElementAt(int index)
+ - protected void removeRange(int fromIndex, int toIndex)
+ - boolean retainAll(Collection c)
+ - Object set(int index, Object element)
+ - void setElementAt(Object obj, int index)
+ - void setSize(int newSize)
+ - int size()
+ - List subList(int fromIndex, int toIndex)
+ - Object[] toArray()
+ - Object[] toArray(Object[] a)
+ - String toString()
+ - void trimToSize()
+ </details> 
+
+<details> 
+ <summary> Linkedlist Class  </summary> <br> 
+ 
+ - void add(int index, Object element)
+ - boolean add(Object o)
+ - boolean addAll(Collection c)
+ - boolean addAll(int index, Collection c)
+ - void addFirst(Object o)
+ - void addLast(Object o)
+ - void clear()
+ - Object clone()
+ - boolean contains(Object o)
+ - Object get(int index)
+ - Object getFirst()
+ - Object getLast()
+ - int indexOf(Object o)
+ - int lastIndexOf(Object o)
+ - ListIterator listIterator(int index)
+ - Object remove(int index)
+ - boolean remove(Object o)
+ - Object removeFirst()
+ - Object removeLast()
+ - Object set(int index, Object element)
+ - int size()
+ - Object[] toArray()
+ - Object[] toArray(Object[] a)
+</details>
+
+<details> 
+ <summary> PriorityQueue Class </summary> <br> 
+ 
+ - boolean add(E e)
+ - void clear()
+ - Comparator<? super E> comparator()
+ - boolean contains(Object o) 
+ - Iterator<E> iterator() 
+ - boolean offer(E e) 
+ - E peek()
+ - E poll()
+ - boolean remove(Object o)
+ - int size()
+ - Object[] toArray()
+ - <T> T[] toArray(T[] a)
+ </details>
+ 
+<details> 
+ <summary> ArrayDeque Class </summary> <br> 
+ 
+ - boolean add(E e)
+ - void addFirst(E e)
+ - void addLast(E e)
+ - void clear()
+ - ArrayDeque<E> clone()
+ - boolean contains(Object o)
+ - Iterator<E> descendingIterator()
+ - E element()
+ - E getFirst()
+ - E getLast()
+ - boolean isEmpty()
+ - Iterator<E> iterator()
+ - boolean offer(E e)
+ - boolean offerFirst(E e)
+ - boolean offerLast(E e)
+ - E peek()
+ - E peekFirst()
+ - E peekLast()
+ - E poll()
+ - E pollFirst()
+ - E pollLast()
+ - E pop()
+ - void push(E e)
+ - E remove()
+ - boolean remove(Object o)
+ - E removeFirst()
+ - boolean removeFirstOccurrence(Object o)
+ - E removeLast()
+ - boolean removeLastOccurrence(Object o)
+ - int size()
+ - object[] toArray()
+ </details>
+
+<details>
+ <summary> HashSet Class  </summary> <br> 
+ 
+ - boolean add(Object o)
+ - void clear()
+ - Object clone()
+ - boolean contains(Object o)
+ - boolean isEmpty()
+ - Iterator iterator()
+ -boolean remove(Object o)
+ - int size()
+ </details> 
+ 
+ <details>
+ <summary> LinkedHashSet Class </summary> <br>
+ - Please Check
+ </details>
+
+<details>
+ <summary> HashMap Class </summary> <br> 
+
+- void clear()
+ - Object clone()
+ - boolean containsKey(Object key)
+ - boolean containsValue(Object value)
+ - Set entrySet()
+ - Object get(Object key)	
+ - boolean isEmpty()
+ - Set keySet()
+ - Object put(Object key, Object value)
+ - putAll(Map m)
+ - Object remove(Object key)
+ - int size()
+ - Collection values()
+</details> 
+
+<details>
+ <summary> TreeSet Class </summary> <br> 
+ 
+ - void clear()
+ - Object clone()
+ - Comparator comparator()
+ - boolean containsKey(Object key)
+ - boolean containsValue(Object value)
+ - Set entrySet()
+ - Object firstKey()
+ - Object get(Object key)
+ - SortedMap headMap(Object toKey)
+ - Set keySet()
+ - Object lastKey()
+ - Object put(Object key, Object value)
+ - void putAll(Map map)
+ - Object remove(Object key)
+ - int size()
+ - SortedMap subMap(Object fromKey, Object toKey)
+ - SortedMap tailMap(Object fromKey)
+ - Collection values()
+ </details>
+
 
 
 # Contribution best practices :white_check_mark:
