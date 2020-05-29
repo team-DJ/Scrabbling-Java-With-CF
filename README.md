@@ -14,11 +14,11 @@ We will then be reviewing and adding your code files under the respective method
 <details> 
  <summary> List Interface </summary > <br>
 
- - [void add(int index, E element)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/2)  
- - [boolean add(E e)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/3)
- - [boolean addAll(Collection<? extends E> c)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/4)
- - [boolean addAll(int index, Collection<? extends E> c)](https://github.com/VBSquad/Scrabbling-Java-With-CF/issues/5)
- - [void clear()]
+ - void add(int index, E element)
+ - boolean add(E e)
+ - boolean addAll(Collection<? extends E> c)
+ - boolean addAll(int index, Collection<? extends E> c)
+ - void clear()
  - boolean equals(Object o)
  - int hashcode()
  - E get(int index)
