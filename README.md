@@ -342,7 +342,7 @@ We will then be reviewing and adding your code files under the respective method
 # Contribution best practices :white_check_mark:
 
 ## For First time Contributors 
-Kindly read the CONTRIBUTE.md file first to know some basic git commands and the proper way to create issue and send pull requests. 
+Kindly read the [CONTRIBUTE.md](https://github.com/VBSquad/Scrabbling-Java-With-CF/blob/master/CONTRIBUTE.md) file first to know some basic git commands and the proper way to create issue and send pull requests. 
 
 ## Branch Policy 
 To make things easy for all of us we are as of now having only one branch that is the ***master branch*** hence you need to make pull request to the master branch only. 
