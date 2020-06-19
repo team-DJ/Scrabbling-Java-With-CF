@@ -2,6 +2,14 @@
 We welcome you to our project where you can contribute to the project by using Collection Classes and Interfaces of our very favorite computer language **JAVA**. 
 This project is simple and easy so that we can help those who are contributing for the first time. Hence, this project also serves as an experience for *'First Time Contributors'* 
 
+<h2 align= "center"><b> Program: </b></h2>
+
+<a href = "https://scodein.tech/"><h3 align= "center"><b> Student Code IN </b></h3></a> 
+
+<p align="center"><img width=30% src="https://github.com/VBSquad/Scrabbling-Java-With-CF/blob/master/SCI%202020%20logo.JPG"></p>
+
+Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team. 
+
 
 
 # The Project :open_file_folder:
