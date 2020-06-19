@@ -382,4 +382,4 @@ The best and the only way to join the project is by opening an issue or solving 
 - We want  that all the coders must follow some decency while working on this project that a proper online code of conduct must be followed. The only restriction we impose is that your action or words must not hurt others. At the end of the day we all are forging ahead to accomplish a unanimous goal that is to help contribute to **open source**. 
 
 # Future :computer:
-In the future we are planning to launch this project by deploying this project into an app and website as well so that it accessible to a major audience. 
+In the future we are planning to launch this project by deploying this project into an app and website as well, so that it accessible to a major audience. 
