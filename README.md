@@ -4,7 +4,7 @@ This project is simple and easy so that we can help those who are contributing f
 
 <h2 align= "center"><b> Program: </b></h2>
 
-<a href = "https://scodein.tech/"><h3 align= "center"><b> Student Code IN </b></h3></a> 
+<a href = "https://scodein.tech/"><h3 align= "center"><b> Student Code-IN </b></h3></a> 
 
 <p align="center"><img width=30% src="https://github.com/VBSquad/Scrabbling-Java-With-CF/blob/master/SCI%202020%20logo.JPG"></p>
 
