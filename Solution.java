@@ -13,7 +13,7 @@ public class Solution {
         scan.close();
 
         // Print a string literal saying "Hello, World." to stdout.
-        System.out.println("Hello, World.");
+        System.out.println("Hello, Jojo.");
 
         // Print the contents of inputString to stdout.
         System.out.println(inputString);
